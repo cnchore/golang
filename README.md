@@ -1,2 +1,3 @@
 # golang
-golang note
+golang 笔记
+
