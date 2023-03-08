@@ -1,0 +1,23 @@
+{
+    "go.gopath": "${workspaceFolder}",
+    "go.useLanguageServer": true,
+    "go.buildOnSave": "package",
+    "go.vetOnSave": "package",
+    "files.exclude": {
+        "go.work": true,
+        "pkg/":true
+    },
+    "gopls": {
+        "build.expandWorkspaceToModule": true,
+        "ui.semanticTokens": true,
+    },
+    "go.toolsEnvVars": {
+        "GOROOT":"/usr/local/go"
+    },
+    "go.languageServerExperimentalFeatures": {
+        "diagnostics": true,
+    },
+    "go.alternateTools": {
+        "customFormatter": "ctrl+s"
+    }
+}
